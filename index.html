@@ -1,0 +1,107 @@
+<html>
+<head>
+    <title>Frames</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial;
+            background-color: #0f1923;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .row1{
+            display: flex;
+            height: 34vh;
+        }
+        .top-left{
+            width: 20%;
+            padding: 20px;
+        }
+        .top-right {
+            width: 75%;
+            color: white;
+            padding: 20px;
+        }
+        .row2{
+            display: flex;
+             justify-content: space-between;   /*Justify Content for horizontal , align items for vertical  */
+            height: 10vh;
+            padding: 0 20px;
+            background-color: #0f1923;
+        }
+        .nav-item {
+            color: #ff4655;
+            text-decoration: none;
+            text-align: center;
+            flex: 1;
+            padding: 20px;
+        }
+        .row3{
+            display: flex;
+            height : 40vh;
+        }
+        .bottom-left{
+            width: 40%;
+            padding: 20px;
+            color: white;
+        }
+        .bottom-right{
+            width: 80%;
+            padding: 20px;
+            color: white;
+        }   
+    </style>
+</head>
+
+<body bgcolor="black">
+
+    <div class="container">
+        <div class = "row1">
+            <div class="top-left">
+                <image src = "valo.png"></image>
+            </div>
+        <div class="top-right">
+            <h1>WELCOME TO VALORANT</h1> 
+            <hr>
+            <h2>Dive deep into the Abyss with valorant~</h2>
+            <hr>
+            <h4>Reach out to us at : <a href="">valorant@gmail.com</a></h4>
+        </div>     
+        </div>
+
+        <div class="row2">
+            <a href="home.html" class="nav-item">Home</a>
+            <a href="login.html" class="nav-item">Login</a>
+            <a href="platforms.html" class="nav-item">Platforms</a>
+            <a href="download.html" class="nav-item">Download</a>
+            <a href="Contact us.html" class="nav-item">Contact Us</a>
+        </div>
+        <div class="row3">
+            <div class="bottom-left">
+                <h1>Other Games By us</h1>
+                <a href ="https://www.leagueoflegends.com/en-gb/" target="desc">League Of Legends</a> <br>
+                <a href ="https://teamfighttactics.leagueoflegends.com/en-gb/" target="desc">TeamFight Tactics</a> <br>
+                <a href ="https://playruneterra.com/en-us/" target="desc">Legends of Runeterra</a>
+            </div>
+            <div class="bottom-right">
+                <h1>Description</h1>
+                <hr>
+                <h3>This is a sample website designed for the the GAME valorant with 
+                    the help of frames in HTML.
+                </h3>
+                <p>Valorant is a 2020 first-person tactical hero shooter video game developed and published by Riot Games.[3] 
+                A free-to-play game, Valorant takes inspiration from the Counter-Strike series, borrowing several mechanics such as the buy menu, 
+                spray patterns, and inaccuracy while moving. Development started in 2014 and was teased under the codename Project A in 2019; 
+                the game was released on June 2, 2020 for Windows. It was ported to the Xbox Series X/S and PlayStation 5 in June 2024, 
+                albeit without crossplay between PC and console clients.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
